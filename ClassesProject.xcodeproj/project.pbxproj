@@ -13,6 +13,12 @@
 		A617D405256A5C9F001FD476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A617D404256A5C9F001FD476 /* Preview Assets.xcassets */; };
 		A617D410256A5CA0001FD476 /* ClassesProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D40F256A5CA0001FD476 /* ClassesProjectTests.swift */; };
 		A617D41B256A5CA0001FD476 /* ClassesProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D41A256A5CA0001FD476 /* ClassesProjectUITests.swift */; };
+		A617D42E256A5D69001FD476 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D42D256A5D69001FD476 /* Home.swift */; };
+		A617D433256A6488001FD476 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D432256A6488001FD476 /* TabButton.swift */; };
+		A617D43B256AA89C001FD476 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D43A256AA89C001FD476 /* Item.swift */; };
+		A617D440256AAB10001FD476 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D43F256AAB10001FD476 /* CardView.swift */; };
+		A617D445256C035C001FD476 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D444256C035C001FD476 /* Detail.swift */; };
+		A617D44B256D4E59001FD476 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D44A256D4E59001FD476 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		A617D416256A5CA0001FD476 /* ClassesProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassesProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A617D41A256A5CA0001FD476 /* ClassesProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesProjectUITests.swift; sourceTree = "<group>"; };
 		A617D41C256A5CA0001FD476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A617D42D256A5D69001FD476 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A617D432256A6488001FD476 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		A617D43A256AA89C001FD476 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A617D43F256AAB10001FD476 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A617D444256C035C001FD476 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		A617D44A256D4E59001FD476 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,8 @@
 		A617D3FC256A5C9D001FD476 /* ClassesProject */ = {
 			isa = PBXGroup;
 			children = (
+				A617D42C256A5D4B001FD476 /* View */,
+				A617D42B256A5D0E001FD476 /* Model */,
 				A617D3FD256A5C9D001FD476 /* ClassesProjectApp.swift */,
 				A617D3FF256A5C9D001FD476 /* ContentView.swift */,
 				A617D401256A5C9F001FD476 /* Assets.xcassets */,
@@ -128,6 +142,26 @@
 				A617D41C256A5CA0001FD476 /* Info.plist */,
 			);
 			path = ClassesProjectUITests;
+			sourceTree = "<group>";
+		};
+		A617D42B256A5D0E001FD476 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A617D43A256AA89C001FD476 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A617D42C256A5D4B001FD476 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A617D42D256A5D69001FD476 /* Home.swift */,
+				A617D432256A6488001FD476 /* TabButton.swift */,
+				A617D44A256D4E59001FD476 /* CustomShape.swift */,
+				A617D43F256AAB10001FD476 /* CardView.swift */,
+				A617D444256C035C001FD476 /* Detail.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A617D44B256D4E59001FD476 /* CustomShape.swift in Sources */,
+				A617D43B256AA89C001FD476 /* Item.swift in Sources */,
+				A617D445256C035C001FD476 /* Detail.swift in Sources */,
 				A617D400256A5C9D001FD476 /* ContentView.swift in Sources */,
+				A617D433256A6488001FD476 /* TabButton.swift in Sources */,
+				A617D42E256A5D69001FD476 /* Home.swift in Sources */,
+				A617D440256AAB10001FD476 /* CardView.swift in Sources */,
 				A617D3FE256A5C9D001FD476 /* ClassesProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
