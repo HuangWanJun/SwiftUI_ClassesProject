@@ -19,6 +19,8 @@
 		A617D440256AAB10001FD476 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D43F256AAB10001FD476 /* CardView.swift */; };
 		A617D445256C035C001FD476 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D444256C035C001FD476 /* Detail.swift */; };
 		A617D44B256D4E59001FD476 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617D44A256D4E59001FD476 /* CustomShape.swift */; };
+		A64BCEBD2598D380003343E7 /* screen_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A64BCEBC2598D380003343E7 /* screen_1.png */; };
+		A64BCEC32598D3AC003343E7 /* screen_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A64BCEC22598D3AC003343E7 /* screen_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		A617D43F256AAB10001FD476 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A617D444256C035C001FD476 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		A617D44A256D4E59001FD476 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		A64BCEBC2598D380003343E7 /* screen_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_1.png; sourceTree = "<group>"; };
+		A64BCEC22598D3AC003343E7 /* screen_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		A617D3FC256A5C9D001FD476 /* ClassesProject */ = {
 			isa = PBXGroup;
 			children = (
+				A64BCEC12598D385003343E7 /* image */,
 				A617D42C256A5D4B001FD476 /* View */,
 				A617D42B256A5D0E001FD476 /* Model */,
 				A617D3FD256A5C9D001FD476 /* ClassesProjectApp.swift */,
@@ -162,6 +167,15 @@
 				A617D444256C035C001FD476 /* Detail.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A64BCEC12598D385003343E7 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A64BCEBC2598D380003343E7 /* screen_1.png */,
+				A64BCEC22598D3AC003343E7 /* screen_2.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A617D405256A5C9F001FD476 /* Preview Assets.xcassets in Resources */,
+				A64BCEC32598D3AC003343E7 /* screen_2.png in Resources */,
 				A617D402256A5C9F001FD476 /* Assets.xcassets in Resources */,
+				A64BCEBD2598D380003343E7 /* screen_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
